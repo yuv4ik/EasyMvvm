@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DA101070-5511-4585-A2FF-1C59B87CE4D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyMvvm.Core", "EasyMvvm.Core\EasyMvvm.Core.csproj", "{389F08C9-FEB8-42BA-9F70-75CCA08BB7BB}"
+EndProject
+Project("{5DD5E4FA-CB73-4610-85AB-557B54E96AA9}") = "EasyMvvm.Core.NuGet", "EasyMvvm.Core.NuGet\EasyMvvm.Core.NuGet.nuproj", "{C82203D4-F1B4-4427-9BBE-F7E51C6F6C54}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{389F08C9-FEB8-42BA-9F70-75CCA08BB7BB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{389F08C9-FEB8-42BA-9F70-75CCA08BB7BB}.Debug|x86.Build.0 = Debug|Any CPU
+		{389F08C9-FEB8-42BA-9F70-75CCA08BB7BB}.Release|x86.ActiveCfg = Release|Any CPU
+		{389F08C9-FEB8-42BA-9F70-75CCA08BB7BB}.Release|x86.Build.0 = Release|Any CPU
+		{C82203D4-F1B4-4427-9BBE-F7E51C6F6C54}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C82203D4-F1B4-4427-9BBE-F7E51C6F6C54}.Debug|x86.Build.0 = Debug|Any CPU
+		{C82203D4-F1B4-4427-9BBE-F7E51C6F6C54}.Release|x86.ActiveCfg = Release|Any CPU
+		{C82203D4-F1B4-4427-9BBE-F7E51C6F6C54}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{389F08C9-FEB8-42BA-9F70-75CCA08BB7BB} = {DA101070-5511-4585-A2FF-1C59B87CE4D5}
+		{C82203D4-F1B4-4427-9BBE-F7E51C6F6C54} = {DA101070-5511-4585-A2FF-1C59B87CE4D5}
+	EndGlobalSection
+EndGlobal
