@@ -8,5 +8,11 @@ namespace EasyMvvm.Core.Services
         Task PushAsync<TViewModel>(bool animated = true) where TViewModel : BaseViewModel;
         Task PushAsync<TViewModel>(object parameter, bool animated = true) where TViewModel : BaseViewModel;
         Task PopAsync(bool animated = true);
+
+        Task PushModalAsync<TViewModel>(bool animated = true) where TViewModel : BaseViewModel;
+        Task PushModalAsync<TViewModel>(object parameter, bool animated = true) where TViewModel : BaseViewModel;
+        Task PopModalAsync(bool animated = true);
+
+        void SetRootPage<TViewModel>(bool shouldBeWrappedByNavigationPage) where TViewModel : BaseViewModel;
     }
 }
