@@ -12,7 +12,7 @@ namespace EasyMvvm.Core
         protected override void OnStart()
         {
             base.OnStart();
-            ViewModelLocator.Init(IocModules);
+            TypeRegistry.Init(IocModules);
         }
     }
 }

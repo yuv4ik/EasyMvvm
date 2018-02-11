@@ -35,6 +35,14 @@
     <Compile Include="Services\Navigation\NavigationService.cs" />
     <Compile Include="Services\ViewModelLocator.cs" />
     <Compile Include="BaseApplication.cs" />
+    <Compile Include="Services\Navigation\IModalNavigationService.cs" />
+    <Compile Include="Services\Navigation\ModalNavigationService.cs" />
+    <Compile Include="Services\Navigation\BaseNavigationService.cs" />
+    <Compile Include="Services\Mapper\ITypeMapperService.cs" />
+    <Compile Include="Services\Mapper\TypeMapperService.cs" />
+    <Compile Include="Services\TypeRegistry.cs" />
+    <Compile Include="Services\PopUps\IPopUpsService.cs" />
+    <Compile Include="Services\PopUps\PopUpsService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -43,6 +51,8 @@
     <Folder Include="ViewModels\" />
     <Folder Include="Services\" />
     <Folder Include="Services\Navigation\" />
+    <Folder Include="Services\Mapper\" />
+    <Folder Include="Services\PopUps\" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System.Runtime.InteropServices.RuntimeInformation">

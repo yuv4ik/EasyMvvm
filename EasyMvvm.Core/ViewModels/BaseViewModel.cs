@@ -20,7 +20,7 @@ namespace EasyMvvm.Core.ViewModels
 
         public BaseViewModel()
         {
-            NavigationService = ViewModelLocator.Resolve<INavigationService>();
+            NavigationService = TypeRegistry.Resolve<INavigationService>();
         }
     }
 }

@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyMvvmTest", "..\EasyMvvm
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyMvvmTest.iOS", "..\EasyMvvmTest\iOS\EasyMvvmTest.iOS.csproj", "{F958C853-3822-4F61-86C0-8F7890C72489}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyMvvm.UnitTests", "EasyMvvm.UnitTests\EasyMvvm.UnitTests.csproj", "{B53DCF11-7EC3-4E35-A898-61F4A964BEEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -71,11 +73,24 @@ Global
 		{F958C853-3822-4F61-86C0-8F7890C72489}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 		{F958C853-3822-4F61-86C0-8F7890C72489}.Debug|iPhone.ActiveCfg = Debug|iPhone
 		{F958C853-3822-4F61-86C0-8F7890C72489}.Debug|iPhone.Build.0 = Debug|iPhone
+		{B53DCF11-7EC3-4E35-A898-61F4A964BEEF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B53DCF11-7EC3-4E35-A898-61F4A964BEEF}.Debug|x86.Build.0 = Debug|Any CPU
+		{B53DCF11-7EC3-4E35-A898-61F4A964BEEF}.Release|x86.ActiveCfg = Release|Any CPU
+		{B53DCF11-7EC3-4E35-A898-61F4A964BEEF}.Release|x86.Build.0 = Release|Any CPU
+		{B53DCF11-7EC3-4E35-A898-61F4A964BEEF}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{B53DCF11-7EC3-4E35-A898-61F4A964BEEF}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{B53DCF11-7EC3-4E35-A898-61F4A964BEEF}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{B53DCF11-7EC3-4E35-A898-61F4A964BEEF}.Release|iPhone.Build.0 = Release|Any CPU
+		{B53DCF11-7EC3-4E35-A898-61F4A964BEEF}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{B53DCF11-7EC3-4E35-A898-61F4A964BEEF}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{B53DCF11-7EC3-4E35-A898-61F4A964BEEF}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{B53DCF11-7EC3-4E35-A898-61F4A964BEEF}.Debug|iPhone.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{389F08C9-FEB8-42BA-9F70-75CCA08BB7BB} = {DA101070-5511-4585-A2FF-1C59B87CE4D5}
 		{C82203D4-F1B4-4427-9BBE-F7E51C6F6C54} = {DA101070-5511-4585-A2FF-1C59B87CE4D5}
 		{37F84053-EC09-4C4E-8466-F8BD59FD58B6} = {9183AFFD-AFD1-4067-AC5A-AD67624D20DE}
 		{F958C853-3822-4F61-86C0-8F7890C72489} = {9183AFFD-AFD1-4067-AC5A-AD67624D20DE}
+		{B53DCF11-7EC3-4E35-A898-61F4A964BEEF} = {DA101070-5511-4585-A2FF-1C59B87CE4D5}
 	EndGlobalSection
 EndGlobal
